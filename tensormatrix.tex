@@ -1,18 +1,19 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage{fullpage}
-\usepackage{tmat}
+\usepackage{tensormatrix}
 \usepackage{subfig}
 
 \newlength{\pwidth}
 \setlength{\pwidth}{8cm}
 
 \begin{document}
-\title{tmat.sty -- tensor matrix-representations}
-\author{Einar Halvorrsen}
+\title{tensormatrix -- version 1.0.0}
+\author{Einar Halvorsen}
+\date{August 8, 2025}
 \maketitle
 
 
-This package helps visualizing the structure of matrices representing tensors. It requires the tikz package. The package provides an environment \textit{tmat} which takes two parameters, the dimensions of the matrix. The environment requires math mode. Inside the environment a sequence of commands can be given. The available commands are listed in table \ref{tab:elements}. They either define a symbol to appear at the location specified by the parameter of the command or a link between two elements. If no symbol is defined for an element, the default, a small dot, is shown. This would define a zero value in the usual use of the notation.   
+This package helps visualizing the structure of matrices representing the tensors of linear constitutive equations. It requires the tikz package. The package provides an environment \textit{tmat} which takes two parameters, the dimensions of the matrix. The environment requires math mode. Inside the environment a sequence of commands can be given. The available commands are listed in table \ref{tab:elements}. They either define a symbol to appear at the location specified by the parameter of the command or a link between two elements. If no symbol is defined for an element, the default, a small dot, is shown. This would define a zero value in the usual use of the notation.   
 
 \begin{table}[hbt]
   \centering

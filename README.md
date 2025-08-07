@@ -1,5 +1,5 @@
-# tmat
+# tensormatrix
 A LaTeX style file for visualizing matrix representations of tensors.
 
-See [tmat.pdf](tmat.pdf) for documentation and its source file [tmat.tex](tmat.tex) for an example.
+See [tensormatrix.pdf](tensormatrix.pdf) for documentation and its source file [tensormatrix.tex](tensormatrix.tex) for an example.
  
